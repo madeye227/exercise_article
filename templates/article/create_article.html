@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h2>Create article</h2>
+      Title: <textarea rows="4" cols="50" id="title">
+      </textarea>
+      <br>
+      Article<textarea rows="10" cols="50" id="article">
+      </textarea>
+      <br>
+      Author: <input type="text" name="lastname" id="author">
+      <br>
+      <button onclick="submitForm()">Submit</button>
+    </form>
+
+    <script src="{{ url_for('static', filename='src/js/create_article.js') }}"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+Flask
+flask-sqlalchemy
+flask_migrate
+sqlite3
+flask-cors
